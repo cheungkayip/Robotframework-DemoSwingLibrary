@@ -15,4 +15,4 @@ Push the button
 Check the Result TextField
     [Arguments]    ${textFieldValue}
     ${item}=  Get Textfield Value  Result
-    Should Be Equal  ${item}  You have clicked Button5
+    Should Be Equal  ${item}  ${textFieldValue}
