@@ -3,23 +3,32 @@ Resource  DemoSwing_common.robot
 Suite Setup  Start Test Application
 *** Variables ***
 
+*** Keywords ***
+I want to push the "${buttonName}"
+    Push the button  ${buttonName}
+
+I want to see Result TextField to change to "${resultValue}"
+    Check the Result TextField   ${resultValue}
+
 *** Test Cases ***
-DemoSwing Test Case Button1
-    Push the button  Button1
-    Check the Result TextField   You have clicked Button1
+DemoSwing Test Case 1
+    Given I want to push the "Button1"
+    Then I want to see Result TextField to change to "You have clicked Button1"
 
-DemoSwing Test Case Button2
-    Push the button  Button2
-    Check the Result TextField   You have clicked Button2
+DemoSwing Test Case 2
+    Given I want to push the "Button2"
+    Then I want to see Result TextField to change to "You have clicked Button2"
 
-DemoSwing Test Case Button3
-    Push the button  Button3
-    Check the Result TextField   You have clicked Button3
+DemoSwing Test Case 3
+    Given I want to push the "Button3"
+    Then I want to see Result TextField to change to "You have clicked Button3"
 
-DemoSwing Test Case Long-Named Button 4
-    Push the button  Long-Named Button 4
-    Check the Result TextField   You have clicked Long-Named Button 4
+DemoSwing Test Case 4
+    Given I want to push the "Long-Named Button 4"
+    Then I want to see Result TextField to change to "You have clicked Long-Named Button 4"
 
-DemoSwing Test Case Button5
-    Push the button  Button5
-    Check the Result TextField   You have clicked Button5
+DemoSwing Test Case 5
+    Given I want to push the "Button5"
+    Then I want to see Result TextField to change to "You have clicked Button5"
+
+
