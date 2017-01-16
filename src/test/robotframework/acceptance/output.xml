@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20170116 11:29:35.840" generator="Robot 3.0 (Python 2.7.12 on darwin)">
+<suite source="/Users/kayipcheung/Documents/Git/RFW/src/test/robotframework/acceptance/DemoSwing.robot" id="s1" name="DemoSwing">
+<kw type="setup" name="Start Test Application" library="DemoSwing_common">
+<kw name="Start Application">
+<arguments>
+<arg>nl.ns.demoswing.impl.DemoSwing</arg>
+</arguments>
+<msg timestamp="20170116 11:29:35.868" level="FAIL">No keyword with name 'Start Application' found. Did you mean:
+    DemoSwing_common.Start Test Application</msg>
+<status status="FAIL" endtime="20170116 11:29:35.869" starttime="20170116 11:29:35.868"></status>
+</kw>
+<status status="FAIL" endtime="20170116 11:29:35.869" starttime="20170116 11:29:35.866"></status>
+</kw>
+<test id="s1-t1" name="DemoSwing Test Case 1">
+<status status="FAIL" endtime="20170116 11:29:35.869" critical="yes" starttime="20170116 11:29:35.869">Parent suite setup failed:
+No keyword with name 'Start Application' found. Did you mean:
+    DemoSwing_common.Start Test Application</status>
+</test>
+<test id="s1-t2" name="DemoSwing Test Case 2">
+<status status="FAIL" endtime="20170116 11:29:35.869" critical="yes" starttime="20170116 11:29:35.869">Parent suite setup failed:
+No keyword with name 'Start Application' found. Did you mean:
+    DemoSwing_common.Start Test Application</status>
+</test>
+<test id="s1-t3" name="DemoSwing Test Case 3">
+<status status="FAIL" endtime="20170116 11:29:35.870" critical="yes" starttime="20170116 11:29:35.870">Parent suite setup failed:
+No keyword with name 'Start Application' found. Did you mean:
+    DemoSwing_common.Start Test Application</status>
+</test>
+<test id="s1-t4" name="DemoSwing Test Case 4">
+<status status="FAIL" endtime="20170116 11:29:35.889" critical="yes" starttime="20170116 11:29:35.888">Parent suite setup failed:
+No keyword with name 'Start Application' found. Did you mean:
+    DemoSwing_common.Start Test Application</status>
+</test>
+<test id="s1-t5" name="DemoSwing Test Case 5">
+<status status="FAIL" endtime="20170116 11:29:35.889" critical="yes" starttime="20170116 11:29:35.889">Parent suite setup failed:
+No keyword with name 'Start Application' found. Did you mean:
+    DemoSwing_common.Start Test Application</status>
+</test>
+<status status="FAIL" endtime="20170116 11:29:35.890" starttime="20170116 11:29:35.842">Suite setup failed:
+No keyword with name 'Start Application' found. Did you mean:
+    DemoSwing_common.Start Test Application</status>
+</suite>
+<statistics>
+<total>
+<stat fail="5" pass="0">Critical Tests</stat>
+<stat fail="5" pass="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="5" id="s1" name="DemoSwing" pass="0">DemoSwing</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20170116 11:29:35.866" level="ERROR">Error in file '/Users/kayipcheung/Documents/Git/RFW/src/test/robotframework/acceptance/DemoSwing_common.robot': Importing test library 'SwingLibrary' failed: ImportError: No module named SwingLibrary
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /Library/Frameworks/Python.framework/Versions/2.7/bin
+  /Library/Frameworks/Python.framework/Versions/2.7/lib/SwingLibrary.jar
+  /Library/Frameworks/Python.framework/Versions/2.7/lib/python27.zip
+  /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7
+  /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-darwin
+  /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac
+  /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac/lib-scriptpackages
+  /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-tk
+  /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-old
+  /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-dynload
+  /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages</msg>
+</errors>
+</robot>
